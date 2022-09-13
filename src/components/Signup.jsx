@@ -11,6 +11,7 @@ import Button from '@mui/material/Button';
 import { Card } from '@mui/material';
 import Typography from '@mui/material/Typography';
 
+
 export default function Signup() {
   return (
 
@@ -31,7 +32,7 @@ export default function Signup() {
                 ml: '3ch',
                 mb: '5ch',
                 height: 500,
-                width: 600,
+                width: 500,
                 // maxHeight: { xs: 600, md: 500 },
                 // maxWidth: { xs: 600, md: 500 },
               }}
@@ -39,7 +40,7 @@ export default function Signup() {
 
 
 
-              src="https://thrivemyway.com/wp-content/uploads/2021/12/eCommerce-Statistics.jpg.webp"
+              src="https://img.freepik.com/free-vector/flat-online-shopping-concept_52683-63899.jpg?w=740&t=st=1663062940~exp=1663063540~hmac=7afe75d6ac36061e9995f72e90ae3f318db59c1a2d819064be87ba727f25534d"
             />
             
                
