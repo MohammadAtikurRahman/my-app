@@ -6,12 +6,24 @@ import Checkbox from '@mui/material/Checkbox';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormGroup from '@mui/material/FormGroup';
 import Card from '@mui/material/Card';
+import Typography from '@mui/material/Typography';
+
+
+
+
+
 
 export default function Signin() {
   return (
     <FormGroup>
-      <Card variant="outlined" sx={{ pt: 4, pb: 4 }}>
+      <Card variant="outlined" sx={{ pt: 6, pb: 4 }}>
         <div>
+
+
+
+        <Typography variant="h4" gutterBottom >
+       SIGN IN
+      </Typography>
           <Box
             component="form"
             sx={{
