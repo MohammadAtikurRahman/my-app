@@ -16,23 +16,23 @@ const images = [
   {
     label: 'San Francisco – Oakland Bay Bridge, United States',
     imgPath:
-      'https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60',
+      'https://cdn.pixabay.com/photo/2019/01/31/20/52/web-3967926_960_720.jpg',
   },
   {
     label: 'Bird',
     imgPath:
-      'https://images.unsplash.com/photo-1538032746644-0212e812a9e7?auto=format&fit=crop&w=400&h=250&q=60',
+      'https://img.freepik.com/free-vector/customers-buying-from-internet-shops-using-app-mobile-phones-people-purchasing-clothes-online-store-flat-vector-illustration-online-shopping-sale-ecommerce-concept-banner-website-design_74855-25457.jpg?w=900&t=st=1663176630~exp=1663177230~hmac=b6f2efdd835d388f7f3cee8ba7c42ada993ab6bd2ab00bb373153b72e2c0e952',
   },
-  {
-    label: 'Bali, Indonesia',
-    imgPath:
-      'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=400&h=250',
-  },
-  {
-    label: 'Goč, Serbia',
-    imgPath:
-      'https://images.unsplash.com/photo-1512341689857-198e7e2f3ca8?auto=format&fit=crop&w=400&h=250&q=60',
-  },
+//   {
+//     label: 'Bali, Indonesia',
+//     imgPath:
+//       'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=400&h=250',
+//   },
+//   {
+//     label: 'Goč, Serbia',
+//     imgPath:
+//       'https://images.unsplash.com/photo-1512341689857-198e7e2f3ca8?auto=format&fit=crop&w=400&h=250&q=60',
+//   },
 ];
 
 function Slider() {
@@ -53,7 +53,7 @@ function Slider() {
   };
 
   return (
-    <Box sx={{ maxWidth: 400, flexGrow: 1 }}>
+    <Box sx={{ maxWidth: 1400, flexGrow: 1 }}>
       <Paper
         square
         elevation={0}
@@ -79,9 +79,9 @@ function Slider() {
               <Box
                 component="img"
                 sx={{
-                  height: 255,
+                  height: 600,
                   display: 'block',
-                  maxWidth: 400,
+                  maxWidth: 1400,
                   overflow: 'hidden',
                   width: '100%',
                 }}
