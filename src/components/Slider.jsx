@@ -10,18 +10,19 @@ import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
 
+
 const AutoPlaySwipeableViews  = autoPlay(SwipeableViews);
 
 const images = [
   {
     label: 'San Francisco – Oakland Bay Bridge, United States',
     imgPath:
-      'https://cdn.pixabay.com/photo/2019/01/31/20/52/web-3967926_960_720.jpg',
+      'https://cdn.pixabay.com/photo/2022/09/15/12/30/12-30-06-75_960_720.png',
   },
   {
     label: 'Bird',
     imgPath:
-      'https://img.freepik.com/free-vector/customers-buying-from-internet-shops-using-app-mobile-phones-people-purchasing-clothes-online-store-flat-vector-illustration-online-shopping-sale-ecommerce-concept-banner-website-design_74855-25457.jpg?w=900&t=st=1663176630~exp=1663177230~hmac=b6f2efdd835d388f7f3cee8ba7c42ada993ab6bd2ab00bb373153b72e2c0e952',
+      'https://drive.google.com/file/d/1dOywQDg85FL7ZaWlyPJ6Hy4pQmErPy-q/view',
   },
 //   {
 //     label: 'Bali, Indonesia',
@@ -123,6 +124,8 @@ function Slider() {
       />
     </Box>
   );
+
+  
 }
 
 export default Slider;
