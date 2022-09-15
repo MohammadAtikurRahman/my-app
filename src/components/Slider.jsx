@@ -17,12 +17,12 @@ const images = [
   {
     label: 'San Francisco – Oakland Bay Bridge, United States',
     imgPath:
-      'https://cdn.pixabay.com/photo/2022/09/15/12/30/12-30-06-75_960_720.png',
+      'https://cdn.pixabay.com/photo/2022/09/15/14/03/14-03-12-269_960_720.png',
   },
   {
     label: 'Bird',
     imgPath:
-      'https://drive.google.com/file/d/1dOywQDg85FL7ZaWlyPJ6Hy4pQmErPy-q/view',
+      'https://cdn.pixabay.com/photo/2022/09/15/14/10/14-10-44-707_960_720.png',
   },
 //   {
 //     label: 'Bali, Indonesia',
@@ -61,7 +61,7 @@ function Slider() {
         sx={{
           display: 'flex',
           alignItems: 'center',
-          height: 50,
+          height: 40,
           pl: 2,
           bgcolor: 'background.default',
         }}
