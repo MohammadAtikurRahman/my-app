@@ -61,7 +61,7 @@ function Slider() {
         sx={{
           display: 'flex',
           alignItems: 'center',
-          height: 50,
+          height: 60,
           pl: 2,
           bgcolor: 'background.default',
         }}
@@ -80,7 +80,7 @@ function Slider() {
               <Box
                 component="img"
                 sx={{
-                  height: 600,
+                  height: 500,
                   display: 'block',
                   maxWidth: 1400,
                   overflow: 'hidden',

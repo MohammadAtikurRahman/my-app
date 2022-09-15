@@ -41,7 +41,7 @@ const Home = () => {
 
     <div>
 
-<AppBar position="absolute" sx={{ bgcolor: "inherit" }}>
+<AppBar position="absolute" sx={{ bgcolor: "white" }}>
      
      <Container maxWidth="xl">
        <Toolbar disableGutters>
@@ -124,7 +124,7 @@ const Home = () => {
              <Button
                key={page}
                onClick={handleCloseNavMenu}
-               sx={{ my: 2, color: 'white', display: 'block' }}
+               sx={{ my: 2, color: 'black', display: 'block' }}
              >
                {page}
              </Button>
