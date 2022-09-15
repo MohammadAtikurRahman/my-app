@@ -15,12 +15,12 @@ const AutoPlaySwipeableViews  = autoPlay(SwipeableViews);
 
 const images = [
   {
-    label: 'San Francisco – Oakland Bay Bridge, United States',
+   
     imgPath:
-      'https://cdn.pixabay.com/photo/2022/09/15/14/03/14-03-12-269_960_720.png',
+      'https://cdn.pixabay.com/photo/2022/09/15/14/10/14-10-44-707_960_720.png',
   },
   {
-    label: 'Bird',
+  
     imgPath:
       'https://cdn.pixabay.com/photo/2022/09/15/14/10/14-10-44-707_960_720.png',
   },
@@ -57,11 +57,11 @@ function Slider() {
     <Box sx={{ maxWidth: 1400, flexGrow: 1 }}>
       <Paper
         square
-        elevation={0}
+        elevation={3}
         sx={{
           display: 'flex',
           alignItems: 'center',
-          height: 40,
+          height: 50,
           pl: 2,
           bgcolor: 'background.default',
         }}

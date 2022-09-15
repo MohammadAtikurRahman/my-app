@@ -41,7 +41,7 @@ const Home = () => {
 
     <div>
 
-<AppBar position="absolute">
+<AppBar position="absolute" sx={{ bgcolor: "inherit" }}>
      
      <Container maxWidth="xl">
        <Toolbar disableGutters>
@@ -57,7 +57,7 @@ const Home = () => {
              fontFamily: 'monospace',
              fontWeight: 700,
              letterSpacing: '.3rem',
-             color: 'inherit',
+             color: 'dark',
              textDecoration: 'none',
            }}
          >
