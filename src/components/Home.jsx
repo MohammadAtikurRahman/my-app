@@ -14,7 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import Slider from '../components/Slider';
 
-const pages = ['Products', 'Pricing', 'Blog'];
+const pages = ['Products', 'Pricing', 'Blog','Shop'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const Home = () => {
@@ -43,8 +43,8 @@ const Home = () => {
 
 <AppBar position="absolute" sx={{ bgcolor: "white" }}>
      
-     <Container maxWidth="xl">
-       <Toolbar disableGutters>
+     <Container maxWidth="xl"   >
+       <Toolbar disableGutters >
          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
          <Typography
            variant="h6"
@@ -59,6 +59,7 @@ const Home = () => {
              letterSpacing: '.3rem',
              color: 'dark',
              textDecoration: 'none',
+             
            }}
          >
            LOGO
@@ -119,7 +120,7 @@ const Home = () => {
          >
            LOGO
          </Typography>
-         <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+         <Box sx={{ flexGrow: 1,  display: { xs: 'none', md: 'flex' } }}>
            {pages.map((page) => (
              <Button
                key={page}
